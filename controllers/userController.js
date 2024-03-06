@@ -61,7 +61,7 @@ module.exports = {
         return res.status(404).json({ message: 'No user with that ID' });
       }
 
-      await User.deleteMany({ _id: { $in: user.thoughts } });
+      await Thought.deleteMany({ _id: { $in: user.thoughts } });
       res.json({ message: 'User and associated thoughts deleted!' })
     } catch (err) {
       res.status(500).json(err);
@@ -88,7 +88,7 @@ module.exports = {
     try {
       const user = await User.findOneAndUpdate(
         { _id: req.params.userId },
-        { $pull: { friends: { _id: req.params.friendsId } } },
+        { $pull: { friends: req.params.friendsId } },
         { runValidators: true, new: true }
       );
 
