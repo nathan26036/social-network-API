@@ -16,4 +16,4 @@ The goal is to build the back end for a social network web application where use
 ![Image of the find all thoughts root]()
   
 ## Installation 
-The final code tutorial can be found at 
+The final code tutorial can be found at https://drive.google.com/file/d/13E0ppV9Uxrq4NkxAmiqNEiezWsvkTKX1/view?usp=sharing 
