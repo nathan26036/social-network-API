@@ -13,7 +13,7 @@ The goal is to build the back end for a social network web application where use
 * User controller also allows to add and delete friends
 * Created routes for thoughts and users to allow the controllers to function
 
-![Image of the find all thoughts root]()
+![Image of the find all thoughts root](https://github.com/nathan26036/social-network-API/blob/main/Assets/get%20all%20users.PNG)
   
 ## Installation 
 The final code tutorial can be found at https://drive.google.com/file/d/13E0ppV9Uxrq4NkxAmiqNEiezWsvkTKX1/view?usp=sharing 
